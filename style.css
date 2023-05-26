@@ -40,12 +40,12 @@ body{
 h1, .descriptionContainer, .contactContainer{
     margin-left: 2em;
     margin-top: 1.75em;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 80%;
     padding-right: 1em
 }
 .descriptionContainer > h2{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     letter-spacing: .1em !important;
     /* color: red */
 }
@@ -73,7 +73,7 @@ h1>span{
 } */
 .symbol{
     height: 40px;
-    border: 2px solid yellowgreen;
+    /* border: 2px solid yellowgreen; */
     width: 40px;
     margin-right: 1.5em;
     border-radius: 50%;
@@ -85,7 +85,7 @@ h1>span{
     /* font-weight: bolder; */
 }
 .contactContainer > p{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -101,7 +101,7 @@ h1>span{
 }
 
 .eduContainer, .expContainer, .skillsContainer{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 75%;
     margin-top: 3em
 }
@@ -110,7 +110,7 @@ h1>span{
     /* margin-top: 4em; */
     font-size: 2.5em;
     letter-spacing: .15em;
-    border: 1px solid red
+    /* border: 1px solid red */
 }
 
 .expContainer{
@@ -118,11 +118,11 @@ h1>span{
 }
 
 .right p {
-    border: 2px solid grey
+    /* border: 2px solid grey */
 }
 
 .edu{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 1em 0;
 }
 
@@ -133,7 +133,7 @@ h1>span{
 }
 
 .exp{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin: 1.25em 0;
 }
 
@@ -148,7 +148,7 @@ h1>span{
 }
 
 .list{
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     flex-direction: column;
     /* align-content: center; */
