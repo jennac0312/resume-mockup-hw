@@ -1,0 +1,171 @@
+*{
+    font-family: monospace;
+}
+
+body{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    background-color: lightblue;
+}
+
+.right, .left{
+    width: 50%;
+    /* text-align: center; */
+    /* margin: 1em */
+}
+.left{
+    margin-left: 3em
+}
+
+.img{
+    background-color: 
+    #acc8ea;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    padding: 2em 0;
+    /* margin-left: 2em; */
+    margin-top: 4em;
+}
+
+.selfie{
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-left: 4em;
+    /* margin:auto */
+}
+
+h1, .descriptionContainer, .contactContainer{
+    margin-left: 2em;
+    margin-top: 1.75em;
+    border: 1px solid red;
+    width: 80%;
+    padding-right: 1em
+}
+.descriptionContainer > h2{
+    border: 2px solid green;
+    letter-spacing: .1em !important;
+    /* color: red */
+}
+
+h1{
+    font-size: 3em;
+    margin-left:
+     .6em;
+}
+h1>span{
+    color: #6e92b9
+}
+
+.descriptionContainer > h2{
+    font-size: 2em;
+    font-weight: lighter;
+    letter-spacing: .25em;
+}
+.descriptionContainer > p{
+    font-size: 1.1em;
+}
+
+/* h1.span{
+    background-color: orange;
+} */
+.symbol{
+    height: 40px;
+    border: 2px solid yellowgreen;
+    width: 40px;
+    margin-right: 1.5em;
+    border-radius: 50%;
+}
+
+.contactContainer > h2{
+    font-size: 2em;
+    letter-spacing: .25em;
+    /* font-weight: bolder; */
+}
+.contactContainer > p{
+    border: 2px solid green;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 1.2em;
+}
+
+.right{
+    background-color:#6b92b7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke
+}
+
+.eduContainer, .expContainer, .skillsContainer{
+    border: 1px solid black;
+    width: 75%;
+    margin-top: 3em
+}
+
+.eduContainer > h3, .expContainer > h3, .skillsContainer > h3{
+    /* margin-top: 4em; */
+    font-size: 2.5em;
+    letter-spacing: .15em;
+    border: 1px solid red
+}
+
+.expContainer{
+    margin-left: 1.5em;
+}
+
+.right p {
+    border: 2px solid grey
+}
+
+.edu{
+    border: 2px solid green;
+    margin: 1em 0;
+}
+
+.edu p{
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.exp{
+    border: 2px solid green;
+    margin: 1.25em 0;
+}
+
+.exp p, .exp h4{
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.exp h4{
+    font-size: 1.5em;
+}
+
+.list{
+    border: 2px solid purple;
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+.list > span {
+    display: flex;
+    align-content: center;
+}
+
+li{
+    padding-top: .5em;
+}
+
+.line{
+    height: 40px;
+    width: 50%;
+    margin-top: -1em;
+    padding-right: .25em;
+}
